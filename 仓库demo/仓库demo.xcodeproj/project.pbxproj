@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A4496501F440559000D5D9A /* OfftakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A44964F1F440559000D5D9A /* OfftakeViewController.m */; };
+		9A4496531F44083E000D5D9A /* OffTake.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4496521F44083E000D5D9A /* OffTake.m */; };
+		9A44965E1F442FB3000D5D9A /* 12库存.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A44965D1F442FB3000D5D9A /* 12库存.png */; };
+		9A4496601F44320A000D5D9A /* 12库存 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 9A44965F1F44320A000D5D9A /* 12库存 (1).png */; };
+		9A4496631F44323C000D5D9A /* 29业务 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 9A4496611F44323C000D5D9A /* 29业务 (1).png */; };
+		9A4496641F44323C000D5D9A /* 29业务.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A4496621F44323C000D5D9A /* 29业务.png */; };
+		9A4496671F443666000D5D9A /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4496661F443666000D5D9A /* UITableView+Extension.m */; };
+		9A44966A1F443B49000D5D9A /* NodataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4496691F443B49000D5D9A /* NodataView.m */; };
+		9A44966E1F443C5A000D5D9A /* noData@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A44966C1F443C5A000D5D9A /* noData@2x.png */; };
+		9A44966F1F443C5A000D5D9A /* noData@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A44966D1F443C5A000D5D9A /* noData@3x.png */; };
+		9AA164EB1F4286E500E6CB84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA164EA1F4286E500E6CB84 /* main.m */; };
+		9AA164EE1F4286E500E6CB84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA164ED1F4286E500E6CB84 /* AppDelegate.m */; };
+		9AA164F41F4286E500E6CB84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA164F21F4286E500E6CB84 /* Main.storyboard */; };
+		9AA164F61F4286E500E6CB84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA164F51F4286E500E6CB84 /* Assets.xcassets */; };
+		9AA164F91F4286E500E6CB84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA164F71F4286E500E6CB84 /* LaunchScreen.storyboard */; };
+		9AA165041F4286E500E6CB84 /* __demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA165031F4286E500E6CB84 /* __demoTests.m */; };
+		9AA1650F1F4286E500E6CB84 /* __demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1650E1F4286E500E6CB84 /* __demoUITests.m */; };
+		9AA1651E1F428AE600E6CB84 /* Cargo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1651D1F428AE600E6CB84 /* Cargo.m */; };
+		9AA165241F429B2C00E6CB84 /* SLStockTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA165231F429B2C00E6CB84 /* SLStockTool.m */; };
+		9AA1652D1F429DB800E6CB84 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1652C1F429DB800E6CB84 /* HomeViewController.m */; };
+		9AA165301F429DC400E6CB84 /* CargoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1652F1F429DC400E6CB84 /* CargoViewController.m */; };
+		9AA165331F429DD100E6CB84 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA165321F429DD100E6CB84 /* MainViewController.m */; };
+		9AA165351F42A16B00E6CB84 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA165341F42A16B00E6CB84 /* libsqlite3.0.tbd */; };
+		9AA165381F42A49500E6CB84 /* CargoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA165371F42A49500E6CB84 /* CargoTableViewCell.m */; };
+		9AA1653B1F42A4E900E6CB84 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1653A1F42A4E900E6CB84 /* HomeTableViewCell.m */; };
+		9AA1653E1F42C0FA00E6CB84 /* AddCargoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1653D1F42C0FA00E6CB84 /* AddCargoViewController.m */; };
+		E84362191A24193AB736F49F /* libPods-仓库demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C791E6E1754A1F3790E17034 /* libPods-仓库demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AA165001F4286E500E6CB84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA164DE1F4286E500E6CB84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA164E51F4286E500E6CB84;
+			remoteInfo = "仓库demo";
+		};
+		9AA1650B1F4286E500E6CB84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA164DE1F4286E500E6CB84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA164E51F4286E500E6CB84;
+			remoteInfo = "仓库demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94A1BEA2AB36017C5E57505C /* Pods-仓库demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仓库demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-仓库demo/Pods-仓库demo.debug.xcconfig"; sourceTree = "<group>"; };
+		9A44964E1F440559000D5D9A /* OfftakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfftakeViewController.h; sourceTree = "<group>"; };
+		9A44964F1F440559000D5D9A /* OfftakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfftakeViewController.m; sourceTree = "<group>"; };
+		9A4496511F44083E000D5D9A /* OffTake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffTake.h; sourceTree = "<group>"; };
+		9A4496521F44083E000D5D9A /* OffTake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffTake.m; sourceTree = "<group>"; };
+		9A44965D1F442FB3000D5D9A /* 12库存.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "12库存.png"; path = "../../../Downloads/12库存.png"; sourceTree = "<group>"; };
+		9A44965F1F44320A000D5D9A /* 12库存 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "12库存 (1).png"; path = "../../../Downloads/12库存 (1).png"; sourceTree = "<group>"; };
+		9A4496611F44323C000D5D9A /* 29业务 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "29业务 (1).png"; path = "../../../Downloads/29业务 (1).png"; sourceTree = "<group>"; };
+		9A4496621F44323C000D5D9A /* 29业务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "29业务.png"; path = "../../../Downloads/29业务.png"; sourceTree = "<group>"; };
+		9A4496651F443665000D5D9A /* UITableView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Extension.h"; sourceTree = "<group>"; };
+		9A4496661F443666000D5D9A /* UITableView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Extension.m"; sourceTree = "<group>"; };
+		9A4496681F443B49000D5D9A /* NodataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodataView.h; sourceTree = "<group>"; };
+		9A4496691F443B49000D5D9A /* NodataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodataView.m; sourceTree = "<group>"; };
+		9A44966C1F443C5A000D5D9A /* noData@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noData@2x.png"; sourceTree = "<group>"; };
+		9A44966D1F443C5A000D5D9A /* noData@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noData@3x.png"; sourceTree = "<group>"; };
+		9AA164E61F4286E500E6CB84 /* 仓库demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仓库demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA164EA1F4286E500E6CB84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AA164EC1F4286E500E6CB84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AA164ED1F4286E500E6CB84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AA164F31F4286E500E6CB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AA164F51F4286E500E6CB84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AA164F81F4286E500E6CB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AA164FA1F4286E500E6CB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA164FF1F4286E500E6CB84 /* 仓库demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仓库demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA165031F4286E500E6CB84 /* __demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __demoTests.m; sourceTree = "<group>"; };
+		9AA165051F4286E500E6CB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA1650A1F4286E500E6CB84 /* 仓库demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仓库demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA1650E1F4286E500E6CB84 /* __demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __demoUITests.m; sourceTree = "<group>"; };
+		9AA165101F4286E500E6CB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA1651C1F428AE600E6CB84 /* Cargo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cargo.h; sourceTree = "<group>"; };
+		9AA1651D1F428AE600E6CB84 /* Cargo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cargo.m; sourceTree = "<group>"; };
+		9AA165221F429B2C00E6CB84 /* SLStockTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLStockTool.h; sourceTree = "<group>"; };
+		9AA165231F429B2C00E6CB84 /* SLStockTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLStockTool.m; sourceTree = "<group>"; };
+		9AA1652B1F429DB800E6CB84 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9AA1652C1F429DB800E6CB84 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9AA1652E1F429DC400E6CB84 /* CargoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CargoViewController.h; sourceTree = "<group>"; };
+		9AA1652F1F429DC400E6CB84 /* CargoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CargoViewController.m; sourceTree = "<group>"; };
+		9AA165311F429DD100E6CB84 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9AA165321F429DD100E6CB84 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9AA165341F42A16B00E6CB84 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9AA165361F42A49500E6CB84 /* CargoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CargoTableViewCell.h; sourceTree = "<group>"; };
+		9AA165371F42A49500E6CB84 /* CargoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CargoTableViewCell.m; sourceTree = "<group>"; };
+		9AA165391F42A4E900E6CB84 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		9AA1653A1F42A4E900E6CB84 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		9AA1653C1F42C0FA00E6CB84 /* AddCargoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCargoViewController.h; sourceTree = "<group>"; };
+		9AA1653D1F42C0FA00E6CB84 /* AddCargoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCargoViewController.m; sourceTree = "<group>"; };
+		C791E6E1754A1F3790E17034 /* libPods-仓库demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-仓库demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF9983442CC1F5086ACE869 /* Pods-仓库demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仓库demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-仓库demo/Pods-仓库demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AA164E31F4286E500E6CB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA165351F42A16B00E6CB84 /* libsqlite3.0.tbd in Frameworks */,
+				E84362191A24193AB736F49F /* libPods-仓库demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA164FC1F4286E500E6CB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA165071F4286E500E6CB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D02CB199738C7A284B03203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AA165341F42A16B00E6CB84 /* libsqlite3.0.tbd */,
+				C791E6E1754A1F3790E17034 /* libPods-仓库demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AA164DD1F4286E500E6CB84 = {
+			isa = PBXGroup;
+			children = (
+				9AA164E81F4286E500E6CB84 /* 仓库demo */,
+				9AA165021F4286E500E6CB84 /* 仓库demoTests */,
+				9AA1650D1F4286E500E6CB84 /* 仓库demoUITests */,
+				9AA164E71F4286E500E6CB84 /* Products */,
+				C0B48E36071D0BFACB69FD8F /* Pods */,
+				1D02CB199738C7A284B03203 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA164E71F4286E500E6CB84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA164E61F4286E500E6CB84 /* 仓库demo.app */,
+				9AA164FF1F4286E500E6CB84 /* 仓库demoTests.xctest */,
+				9AA1650A1F4286E500E6CB84 /* 仓库demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA164E81F4286E500E6CB84 /* 仓库demo */ = {
+			isa = PBXGroup;
+			children = (
+				9AA164EC1F4286E500E6CB84 /* AppDelegate.h */,
+				9AA164ED1F4286E500E6CB84 /* AppDelegate.m */,
+				9AA1652B1F429DB800E6CB84 /* HomeViewController.h */,
+				9AA1652C1F429DB800E6CB84 /* HomeViewController.m */,
+				9AA1652E1F429DC400E6CB84 /* CargoViewController.h */,
+				9AA1652F1F429DC400E6CB84 /* CargoViewController.m */,
+				9AA1653C1F42C0FA00E6CB84 /* AddCargoViewController.h */,
+				9AA1653D1F42C0FA00E6CB84 /* AddCargoViewController.m */,
+				9A44964E1F440559000D5D9A /* OfftakeViewController.h */,
+				9A44964F1F440559000D5D9A /* OfftakeViewController.m */,
+				9AA165311F429DD100E6CB84 /* MainViewController.h */,
+				9AA165321F429DD100E6CB84 /* MainViewController.m */,
+				9AA165361F42A49500E6CB84 /* CargoTableViewCell.h */,
+				9AA165371F42A49500E6CB84 /* CargoTableViewCell.m */,
+				9AA165391F42A4E900E6CB84 /* HomeTableViewCell.h */,
+				9AA1653A1F42A4E900E6CB84 /* HomeTableViewCell.m */,
+				9A4496651F443665000D5D9A /* UITableView+Extension.h */,
+				9A4496661F443666000D5D9A /* UITableView+Extension.m */,
+				9A4496681F443B49000D5D9A /* NodataView.h */,
+				9A4496691F443B49000D5D9A /* NodataView.m */,
+				9AA1651C1F428AE600E6CB84 /* Cargo.h */,
+				9AA1651D1F428AE600E6CB84 /* Cargo.m */,
+				9A4496511F44083E000D5D9A /* OffTake.h */,
+				9A4496521F44083E000D5D9A /* OffTake.m */,
+				9A4496611F44323C000D5D9A /* 29业务 (1).png */,
+				9A4496621F44323C000D5D9A /* 29业务.png */,
+				9A44965F1F44320A000D5D9A /* 12库存 (1).png */,
+				9A44965D1F442FB3000D5D9A /* 12库存.png */,
+				9A44966C1F443C5A000D5D9A /* noData@2x.png */,
+				9A44966D1F443C5A000D5D9A /* noData@3x.png */,
+				9AA165221F429B2C00E6CB84 /* SLStockTool.h */,
+				9AA165231F429B2C00E6CB84 /* SLStockTool.m */,
+				9AA164F21F4286E500E6CB84 /* Main.storyboard */,
+				9AA164F51F4286E500E6CB84 /* Assets.xcassets */,
+				9AA164F71F4286E500E6CB84 /* LaunchScreen.storyboard */,
+				9AA164FA1F4286E500E6CB84 /* Info.plist */,
+				9AA164E91F4286E500E6CB84 /* Supporting Files */,
+			);
+			path = "仓库demo";
+			sourceTree = "<group>";
+		};
+		9AA164E91F4286E500E6CB84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA164EA1F4286E500E6CB84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AA165021F4286E500E6CB84 /* 仓库demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AA165031F4286E500E6CB84 /* __demoTests.m */,
+				9AA165051F4286E500E6CB84 /* Info.plist */,
+			);
+			path = "仓库demoTests";
+			sourceTree = "<group>";
+		};
+		9AA1650D1F4286E500E6CB84 /* 仓库demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AA1650E1F4286E500E6CB84 /* __demoUITests.m */,
+				9AA165101F4286E500E6CB84 /* Info.plist */,
+			);
+			path = "仓库demoUITests";
+			sourceTree = "<group>";
+		};
+		C0B48E36071D0BFACB69FD8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94A1BEA2AB36017C5E57505C /* Pods-仓库demo.debug.xcconfig */,
+				DDF9983442CC1F5086ACE869 /* Pods-仓库demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AA164E51F4286E500E6CB84 /* 仓库demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA165131F4286E500E6CB84 /* Build configuration list for PBXNativeTarget "仓库demo" */;
+			buildPhases = (
+				E891F92D238F0F756D237B0B /* [CP] Check Pods Manifest.lock */,
+				9AA164E21F4286E500E6CB84 /* Sources */,
+				9AA164E31F4286E500E6CB84 /* Frameworks */,
+				9AA164E41F4286E500E6CB84 /* Resources */,
+				1B34D230D6889D993C68ECAA /* [CP] Embed Pods Frameworks */,
+				A41A883F88AA12A8D81CF36C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仓库demo";
+			productName = "仓库demo";
+			productReference = 9AA164E61F4286E500E6CB84 /* 仓库demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AA164FE1F4286E500E6CB84 /* 仓库demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA165161F4286E500E6CB84 /* Build configuration list for PBXNativeTarget "仓库demoTests" */;
+			buildPhases = (
+				9AA164FB1F4286E500E6CB84 /* Sources */,
+				9AA164FC1F4286E500E6CB84 /* Frameworks */,
+				9AA164FD1F4286E500E6CB84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA165011F4286E500E6CB84 /* PBXTargetDependency */,
+			);
+			name = "仓库demoTests";
+			productName = "仓库demoTests";
+			productReference = 9AA164FF1F4286E500E6CB84 /* 仓库demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AA165091F4286E500E6CB84 /* 仓库demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA165191F4286E500E6CB84 /* Build configuration list for PBXNativeTarget "仓库demoUITests" */;
+			buildPhases = (
+				9AA165061F4286E500E6CB84 /* Sources */,
+				9AA165071F4286E500E6CB84 /* Frameworks */,
+				9AA165081F4286E500E6CB84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA1650C1F4286E500E6CB84 /* PBXTargetDependency */,
+			);
+			name = "仓库demoUITests";
+			productName = "仓库demoUITests";
+			productReference = 9AA1650A1F4286E500E6CB84 /* 仓库demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AA164DE1F4286E500E6CB84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					9AA164E51F4286E500E6CB84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 623Z6D7UC6;
+						ProvisioningStyle = Automatic;
+					};
+					9AA164FE1F4286E500E6CB84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AA164E51F4286E500E6CB84;
+					};
+					9AA165091F4286E500E6CB84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AA164E51F4286E500E6CB84;
+					};
+				};
+			};
+			buildConfigurationList = 9AA164E11F4286E500E6CB84 /* Build configuration list for PBXProject "仓库demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AA164DD1F4286E500E6CB84;
+			productRefGroup = 9AA164E71F4286E500E6CB84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AA164E51F4286E500E6CB84 /* 仓库demo */,
+				9AA164FE1F4286E500E6CB84 /* 仓库demoTests */,
+				9AA165091F4286E500E6CB84 /* 仓库demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AA164E41F4286E500E6CB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4496641F44323C000D5D9A /* 29业务.png in Resources */,
+				9A44966E1F443C5A000D5D9A /* noData@2x.png in Resources */,
+				9AA164F91F4286E500E6CB84 /* LaunchScreen.storyboard in Resources */,
+				9A44966F1F443C5A000D5D9A /* noData@3x.png in Resources */,
+				9A44965E1F442FB3000D5D9A /* 12库存.png in Resources */,
+				9AA164F61F4286E500E6CB84 /* Assets.xcassets in Resources */,
+				9A4496601F44320A000D5D9A /* 12库存 (1).png in Resources */,
+				9AA164F41F4286E500E6CB84 /* Main.storyboard in Resources */,
+				9A4496631F44323C000D5D9A /* 29业务 (1).png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA164FD1F4286E500E6CB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA165081F4286E500E6CB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B34D230D6889D993C68ECAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仓库demo/Pods-仓库demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A41A883F88AA12A8D81CF36C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仓库demo/Pods-仓库demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E891F92D238F0F756D237B0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AA164E21F4286E500E6CB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA165241F429B2C00E6CB84 /* SLStockTool.m in Sources */,
+				9AA1653E1F42C0FA00E6CB84 /* AddCargoViewController.m in Sources */,
+				9AA165301F429DC400E6CB84 /* CargoViewController.m in Sources */,
+				9AA164EE1F4286E500E6CB84 /* AppDelegate.m in Sources */,
+				9AA1651E1F428AE600E6CB84 /* Cargo.m in Sources */,
+				9A4496501F440559000D5D9A /* OfftakeViewController.m in Sources */,
+				9AA165331F429DD100E6CB84 /* MainViewController.m in Sources */,
+				9AA1653B1F42A4E900E6CB84 /* HomeTableViewCell.m in Sources */,
+				9A4496531F44083E000D5D9A /* OffTake.m in Sources */,
+				9A44966A1F443B49000D5D9A /* NodataView.m in Sources */,
+				9A4496671F443666000D5D9A /* UITableView+Extension.m in Sources */,
+				9AA1652D1F429DB800E6CB84 /* HomeViewController.m in Sources */,
+				9AA165381F42A49500E6CB84 /* CargoTableViewCell.m in Sources */,
+				9AA164EB1F4286E500E6CB84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA164FB1F4286E500E6CB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA165041F4286E500E6CB84 /* __demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA165061F4286E500E6CB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA1650F1F4286E500E6CB84 /* __demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AA165011F4286E500E6CB84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AA164E51F4286E500E6CB84 /* 仓库demo */;
+			targetProxy = 9AA165001F4286E500E6CB84 /* PBXContainerItemProxy */;
+		};
+		9AA1650C1F4286E500E6CB84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AA164E51F4286E500E6CB84 /* 仓库demo */;
+			targetProxy = 9AA1650B1F4286E500E6CB84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AA164F21F4286E500E6CB84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA164F31F4286E500E6CB84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AA164F71F4286E500E6CB84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA164F81F4286E500E6CB84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AA165111F4286E500E6CB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AA165121F4286E500E6CB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AA165141F4286E500E6CB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A1BEA2AB36017C5E57505C /* Pods-仓库demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 623Z6D7UC6;
+				INFOPLIST_FILE = "仓库demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zwb.--demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AA165151F4286E500E6CB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF9983442CC1F5086ACE869 /* Pods-仓库demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 623Z6D7UC6;
+				INFOPLIST_FILE = "仓库demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zwb.--demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AA165171F4286E500E6CB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仓库demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zwb.--demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仓库demo.app/仓库demo";
+			};
+			name = Debug;
+		};
+		9AA165181F4286E500E6CB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仓库demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zwb.--demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仓库demo.app/仓库demo";
+			};
+			name = Release;
+		};
+		9AA1651A1F4286E500E6CB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仓库demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zwb.--demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仓库demo";
+			};
+			name = Debug;
+		};
+		9AA1651B1F4286E500E6CB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仓库demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zwb.--demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仓库demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AA164E11F4286E500E6CB84 /* Build configuration list for PBXProject "仓库demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA165111F4286E500E6CB84 /* Debug */,
+				9AA165121F4286E500E6CB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA165131F4286E500E6CB84 /* Build configuration list for PBXNativeTarget "仓库demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA165141F4286E500E6CB84 /* Debug */,
+				9AA165151F4286E500E6CB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA165161F4286E500E6CB84 /* Build configuration list for PBXNativeTarget "仓库demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA165171F4286E500E6CB84 /* Debug */,
+				9AA165181F4286E500E6CB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA165191F4286E500E6CB84 /* Build configuration list for PBXNativeTarget "仓库demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA1651A1F4286E500E6CB84 /* Debug */,
+				9AA1651B1F4286E500E6CB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AA164DE1F4286E500E6CB84 /* Project object */;
+}
