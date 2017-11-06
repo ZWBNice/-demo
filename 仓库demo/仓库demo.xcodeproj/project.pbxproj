@@ -33,6 +33,7 @@
 		9AA165381F42A49500E6CB84 /* CargoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA165371F42A49500E6CB84 /* CargoTableViewCell.m */; };
 		9AA1653B1F42A4E900E6CB84 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1653A1F42A4E900E6CB84 /* HomeTableViewCell.m */; };
 		9AA1653E1F42C0FA00E6CB84 /* AddCargoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1653D1F42C0FA00E6CB84 /* AddCargoViewController.m */; };
+		9AC48BAB1FAFFCEB0000E3A7 /* githubcommitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC48BAA1FAFFCEB0000E3A7 /* githubcommitTableViewCell.m */; };
 		E84362191A24193AB736F49F /* libPods-仓库demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C791E6E1754A1F3790E17034 /* libPods-仓库demo.a */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,8 @@
 		9AA1653A1F42A4E900E6CB84 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
 		9AA1653C1F42C0FA00E6CB84 /* AddCargoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCargoViewController.h; sourceTree = "<group>"; };
 		9AA1653D1F42C0FA00E6CB84 /* AddCargoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCargoViewController.m; sourceTree = "<group>"; };
+		9AC48BA91FAFFCEB0000E3A7 /* githubcommitTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = githubcommitTableViewCell.h; sourceTree = "<group>"; };
+		9AC48BAA1FAFFCEB0000E3A7 /* githubcommitTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = githubcommitTableViewCell.m; sourceTree = "<group>"; };
 		C791E6E1754A1F3790E17034 /* libPods-仓库demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-仓库demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF9983442CC1F5086ACE869 /* Pods-仓库demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仓库demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-仓库demo/Pods-仓库demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,6 +186,8 @@
 				9AA1653A1F42A4E900E6CB84 /* HomeTableViewCell.m */,
 				9A4496651F443665000D5D9A /* UITableView+Extension.h */,
 				9A4496661F443666000D5D9A /* UITableView+Extension.m */,
+				9AC48BA91FAFFCEB0000E3A7 /* githubcommitTableViewCell.h */,
+				9AC48BAA1FAFFCEB0000E3A7 /* githubcommitTableViewCell.m */,
 				9A4496681F443B49000D5D9A /* NodataView.h */,
 				9A4496691F443B49000D5D9A /* NodataView.m */,
 				9AA1651C1F428AE600E6CB84 /* Cargo.h */,
@@ -439,6 +444,7 @@
 				9AA1651E1F428AE600E6CB84 /* Cargo.m in Sources */,
 				9A4496501F440559000D5D9A /* OfftakeViewController.m in Sources */,
 				9AA165331F429DD100E6CB84 /* MainViewController.m in Sources */,
+				9AC48BAB1FAFFCEB0000E3A7 /* githubcommitTableViewCell.m in Sources */,
 				9AA1653B1F42A4E900E6CB84 /* HomeTableViewCell.m in Sources */,
 				9A4496531F44083E000D5D9A /* OffTake.m in Sources */,
 				9A44966A1F443B49000D5D9A /* NodataView.m in Sources */,
